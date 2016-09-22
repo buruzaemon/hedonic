@@ -77,7 +77,7 @@ ggsave(file.path("images", "img05_model1_accuracy.png"))
 y_hat = predict(model2, test)
 
 # measure accuracy via Mean Squared Error
-sprintf("MSE for model1: %f", sum((y_hat - y)^2) / nrow(test))
+sprintf("MSE for model2: %f", sum((y_hat - y)^2) / nrow(test))
 
 # plot predicted MEDV vs actual MEDV
 ggplot(data.frame(y_hat, y), aes(x=y_hat, y=y)) +
