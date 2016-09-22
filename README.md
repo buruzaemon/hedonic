@@ -70,15 +70,19 @@ The results:
 * model 1: 18.756444 
 * model 2: 18.896384 
 
-A plot of the predicted `MEDV` vs. the actual `MEDV` values was created.
-The accuracy of the model is visually interpreted as the distance of a 
-point from the diagonal line y=x. 
+Plots of the predicted `MEDV` vs. the actual `MEDV` values using both models
+were created. The accuracy of the models is visually interpreted as the
+distance of a point from the diagonal line y=x. 
 
 #### Model 1 accuracy
 ![](https://github.com/buruzaemon/hedonic/blob/master/images/img05_model1_accuracy.png?raw=true "Model 1 accuracy")
 
 #### Model 2 accuracy
 ![](https://github.com/buruzaemon/hedonic/blob/master/images/img06_model2_accuracy.png?raw=true "Model 2 accuracy")
+
+Since Model 1 has a lower mean squared error even when including all thirteen
+of the independent variables available in the given dataset, we suggest that
+Model 1 be used.
 
 As the points in this plot seem to lie fairly close to the diagonal,
 we conclude that the linear model works very well for Hedonic regression.
