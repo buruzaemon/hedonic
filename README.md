@@ -12,21 +12,21 @@ R's [`lm`](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/lm.html) fun
 * Number of Instances: 506
 * Number of Attributes: 13 continuous attributes (including "class" attribute "MEDV"), 1 binary-valued attribute
 * Attribute Information:
-  * `CRIM` ... per capita crime rate by town
-  * `ZN` ... proportion of residential land zoned for lots over 25,000 sq.ft.
-  * `INDUS` ... proportion of non-retail business acres per town 
-  * `CHAS` ... Charles River dummy variable (= 1 if tract bounds river; 0 otherwise)
-  * `NOX` ... nitric oxides concentration (parts per 10 million) 
-  * `RM` ... average number of rooms per dwelling
-  * `AGE` ... proportion of owner-occupied units built prior to 1940
-  * `DIS` ... weighted distances to five Boston employment centres 
-  * `RAD` ... index of accessibility to radial highways
-  * `TAX` ... full-value property-tax rate per $10,000 
-  * `PTRATIO` ... pupil-teacher ratio by town 
-  * `B` ... 1000(Bk - 0.63)^2 where Bk is the proportion of blacks by town
-  * `LSTAT` ... % lower status of the population 
-  * `MEDV` ... Median value of owner-occupied homes in $1000's 
-
+  1. `CRIM` ... per capita crime rate by town
+  1. `ZN` ... proportion of residential land zoned for lots over 25,000 sq.ft.
+  1. `INDUS` ... proportion of non-retail business acres per town 
+  1. `CHAS` ... Charles River dummy variable (= 1 if tract bounds river; 0 otherwise)
+  1. `NOX` ... nitric oxides concentration (parts per 10 million) 
+  1. `RM` ... average number of rooms per dwelling
+  1. `AGE` ... proportion of owner-occupied units built prior to 1940
+  1. `DIS` ... weighted distances to five Boston employment centres 
+  1. `RAD` ... index of accessibility to radial highways
+  1. `TAX` ... full-value property-tax rate per $10,000 
+  1. `PTRATIO` ... pupil-teacher ratio by town 
+  1. `B` ... 1000(Bk - 0.63)^2 where Bk is the proportion of blacks by town
+  1. `LSTAT` ... % lower status of the population 
+  1. `MEDV` ... Median value of owner-occupied homes in $1000's 
+* No missing attributes in the data were found 
 
   
 
