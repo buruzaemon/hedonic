@@ -39,6 +39,13 @@ available independent variables had a lower Adjusted R-squared value of
 0.7192, compared to the second model using nine independent variables
 (Adjusted R-squared of 0.722).
 
+<table>
+<tr>
+  <td>![](https://github.com/buruzaemon/hedonic/blob/master/images/img01_model1_fitted-residuals.png?raw=true " Fitted values vs. Residuals for Model 1")</td>
+  <td>![](https://github.com/buruzaemon/hedonic/blob/master/images/img02_model1_normalqq.png?raw=true "Theoretical Quantiles vs. Standardized Residuals for Model 1")</td.
+</tr>
+</table>
+
 ### Verifying the models
 
 The data was randomly shuffled and then split into a training set with
