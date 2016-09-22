@@ -61,6 +61,11 @@ test = subset(test, select=-c(MEDV))
 # using model1, make predictions
 y_hat = predict(model1, test)
 
+# save to file
+tmp = data.frame(y_hat, y)
+names(tmp) = c("predicted", "actual")
+write.csv(tmp, file=file.path("data", "predictions_model1.csv"))
+
 # measure accuracy via Mean Squared Error
 sprintf("MSE for model1: %f", sum((y_hat - y)^2) / nrow(test))
 
@@ -75,6 +80,12 @@ ggsave(file.path("images", "img05_model1_accuracy.png"))
 
 # and now do the same for model2
 y_hat = predict(model2, test)
+
+# save to file
+tmp = data.frame(y_hat, y)
+names(tmp) = c("predicted", "actual")
+write.csv(tmp, file=file.path("data", "predictions_model2.csv"))
+
 
 # measure accuracy via Mean Squared Error
 sprintf("MSE for model2: %f", sum((y_hat - y)^2) / nrow(test))
