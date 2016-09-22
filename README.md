@@ -74,10 +74,10 @@ Plots of the predicted `MEDV` vs. the actual `MEDV` values using both models
 were created. The accuracy of the models is visually interpreted as the
 distance of a point from the diagonal line y=x. 
 
-#### Model 1 accuracy
+#### Model 1 accuracy using all 13 variables
 ![](https://github.com/buruzaemon/hedonic/blob/master/images/img05_model1_accuracy.png?raw=true "Model 1 accuracy")
 
-#### Model 2 accuracy
+#### Model 2 accuracy using 9 variables
 ![](https://github.com/buruzaemon/hedonic/blob/master/images/img06_model2_accuracy.png?raw=true "Model 2 accuracy")
 
 Since Model 1 has a lower mean squared error even when including all thirteen
