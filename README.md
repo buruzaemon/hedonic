@@ -56,6 +56,8 @@ A plot of the predicted `MEDV` vs. the actual `MEDV` values was created.
 The accuracy of the model is visually interpreted as the distance of a 
 point from the diagonal line y=x. 
 
+![hello](hedonic/images/img05_model1_accuracy.png)
+
 As the points in this plot seem to lie fairly close to the diagonal,
 we conclude that the linear model works very well for Hedonic regression.
 R's `lm` and `predict` functions are well-documented, easy-to-use,
