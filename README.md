@@ -41,8 +41,8 @@ available independent variables had a lower Adjusted R-squared value of
 
 <table>
 <tr>
-  <td>![](https://github.com/buruzaemon/hedonic/blob/master/images/img01_model1_fitted-residuals.png?raw=true " Fitted values vs. Residuals for Model 1")</td>
-  <td>![](https://github.com/buruzaemon/hedonic/blob/master/images/img02_model1_normalqq.png?raw=true "Theoretical Quantiles vs. Standardized Residuals for Model 1")</td.
+  <td><img src="https://github.com/buruzaemon/hedonic/blob/master/images/img01_model1_fitted-residuals.png?raw=true" title="Fitted values vs. Residuals for Model 1" /></td>
+  <td><img src="https://github.com/buruzaemon/hedonic/blob/master/images/img02_model1_normalqq.png?raw=true" title="Theoretical Quantiles vs. Standardized Residuals for Model 1" /></td.
 </tr>
 </table>
 
