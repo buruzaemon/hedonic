@@ -1,5 +1,9 @@
 # Hedonic Regression
-Quick example of using linear regression for real estate valuation
+Quick example of using linear regression for real estate valuation for homes in
+the Boston suburbs.
+
+## tl;dr
+R's [`lm`](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/lm.html) function for linear model fitting was used for a Hedonic regression to predict with fair accuracy the median value of owner-occupied homes.
 
 ## Data
 
