@@ -3,20 +3,20 @@ set.seed(1234)
 fin = file.path("data", "housing.data")
 df = read.table(fin, 
                 sep=",", 
-				col.names=c("CRIM", 
-				            "ZN", 
-							"INDUS", 
-							"CHAS", 
-							"NOX", 
-				            "RM", 
-							"AGE", 
-							"DIS", 
-							"RAD", 
-							"TAX", 
-							"PTRATIO", 
-							"B",
-							"LSTAT",
-							"MEDV"))
+                col.names=c("CRIM", 
+                           "ZN", 
+                           "INDUS", 
+                           "CHAS", 
+                           "NOX", 
+                           "RM", 
+                           "AGE", 
+                           "DIS", 
+                           "RAD", 
+                           "TAX", 
+                           "PTRATIO", 
+                           "B",
+                           "LSTAT",
+                           "MEDV"))
 
 str(df)
 
@@ -67,10 +67,10 @@ sprintf("MSE for model1: %f", sum((y_hat - y)^2) / nrow(test))
 # plot predicted MEDV vs actual MEDV
 ggplot(data.frame(y_hat, y), aes(x=y_hat, y=y)) +
     geom_point(color='blue') +
-	geom_abline(color='red', linetype=2) +
-	xlab("Predicted") +
-	ylab("Actual") +
-	ggtitle("Accuracy of model1")
+    geom_abline(color='red', linetype=2) +
+    xlab("Predicted") +
+    ylab("Actual") +
+    ggtitle("Accuracy of model1")
 ggsave(file.path("images", "img05_model1_accuracy.png"))
 
 # and now do the same for model2
@@ -82,8 +82,8 @@ sprintf("MSE for model2: %f", sum((y_hat - y)^2) / nrow(test))
 # plot predicted MEDV vs actual MEDV
 ggplot(data.frame(y_hat, y), aes(x=y_hat, y=y)) +
     geom_point(color='blue') +
-	geom_abline(color='red', linetype=2) +
-	xlab("Predicted") +
-	ylab("Actual") +
-	ggtitle("Accuracy of model2")
+    geom_abline(color='red', linetype=2) +
+    xlab("Predicted") +
+    ylab("Actual") +
+    ggtitle("Accuracy of model2")
 ggsave(file.path("images", "img06_model2_accuracy.png"))
