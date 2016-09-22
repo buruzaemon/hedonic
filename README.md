@@ -39,10 +39,21 @@ available independent variables had a lower Adjusted R-squared value of
 0.7192, compared to the second model using nine independent variables
 (Adjusted R-squared of 0.722).
 
+#### Model 1 details
+
 <table>
 <tr>
   <td><img src="https://github.com/buruzaemon/hedonic/blob/master/images/img01_model1_fitted-residuals.png?raw=true" title="Fitted values vs. Residuals for Model 1" /></td>
   <td><img src="https://github.com/buruzaemon/hedonic/blob/master/images/img02_model1_normalqq.png?raw=true" title="Theoretical Quantiles vs. Standardized Residuals for Model 1" /></td.
+</tr>
+</table>
+
+#### Model 2 details
+
+<table>
+<tr>
+  <td><img src="https://github.com/buruzaemon/hedonic/blob/master/images/img03_model2_fitted-residuals.png?raw=true" title="Fitted values vs. Residuals for Model 2" /></td>
+  <td><img src="https://github.com/buruzaemon/hedonic/blob/master/images/img04_model2_normalqq.png?raw=true" title="Theoretical Quantiles vs. Standardized Residuals for Model 2" /></td.
 </tr>
 </table>
 
@@ -63,7 +74,11 @@ A plot of the predicted `MEDV` vs. the actual `MEDV` values was created.
 The accuracy of the model is visually interpreted as the distance of a 
 point from the diagonal line y=x. 
 
-![hello](https://github.com/buruzaemon/hedonic/blob/master/images/img05_model1_accuracy.png?raw=true "Model 1 accuracy")
+#### Model 1 accuracy
+![](https://github.com/buruzaemon/hedonic/blob/master/images/img05_model1_accuracy.png?raw=true "Model 1 accuracy")
+
+#### Model 2 accuracy
+![](https://github.com/buruzaemon/hedonic/blob/master/images/img06_model2_accuracy.png?raw=true "Model 2 accuracy")
 
 As the points in this plot seem to lie fairly close to the diagonal,
 we conclude that the linear model works very well for Hedonic regression.
