@@ -70,6 +70,9 @@ The results:
 * model 1: 18.756444 
 * model 2: 18.896384 
 
+Predictions using both models were output to file under
+`data/predictions_model*.csv`
+
 Plots of the predicted `MEDV` vs. the actual `MEDV` values using both models
 were created. The accuracy of the models is visually interpreted as the
 distance of a point from the diagonal line y=x. 
